@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.header-gradient {
+    background: linear-gradient(0deg, #FFF 32.26%, rgba(255, 255, 255, 0.00) 79.75%);
+  }
+  
