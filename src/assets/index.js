@@ -1,4 +1,4 @@
-import menu from "./menu.svg"
+import menu from "./menu.png"
 import close from "./close.svg"
 import headergradient from "./header-gradient.png"
 import slack from "./slack.svg"

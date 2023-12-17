@@ -1,11 +1,11 @@
 import { tick_black, tick_white } from "../assets";
 import { pricingOptions } from "../constants";
 import { headergradient } from "../assets";
+import SectionWrapper from "../hoc/SectionWrapper";
 
 const PricingCard = ({ title, description, price, features }) => {
   const isProfessional = title.toLowerCase() === "professional";
   const isFreebie = title.toLowerCase() === "freebie";
-  const isEnterprise = title.toLowerCase() === "enterprise";
 
   return (
     <div
@@ -69,16 +69,15 @@ const Pricing = () => {
   return (
     <div style={bgStyle} className="mt-16 py-11">
       <center>
-        <h1 className="text-4xl font-bold text-[#262E35]">
+        <h1 className="md:text-4xl text-2xl font-bold text-[#262E35]">
           Pricing made for collaborative support.
         </h1>
-
-        <p className="text-gray-600  px-[400px] mt-2">
+        <p className="text-gray-600  px-4 lg:px-[400px] mt-2">
           Plain is made for your entire company. Only pay for users that
           actually message customers. Everyone else is free, forever.
         </p>
       </center>
-      <div className="flex justify-center mt-10 space-x-4">
+      <div className="flex flex-wrap gap-3 justify-center mt-10 space-x-4">
         {pricingOptions.map((option, index) => (
           <PricingCard key={index} {...option} />
         ))}
@@ -87,4 +86,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default  SectionWrapper(Pricing, ""); 

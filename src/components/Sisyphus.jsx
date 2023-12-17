@@ -1,13 +1,14 @@
 import { sisyphus, avatar } from "../assets/index";
+import SectionWrapper from "../hoc/SectionWrapper";
 
 const Sisyphus = () => {
   return (
-    <center className=" py-16 px-44 bg-[#F9FAFB]">
+    <center className=" py-16 px-4 lg:px-44 bg-[#F9FAFB]">
       <div className="flex mb-3 items-center justify-center gap-2">
         <img src={sisyphus} alt="" />
-        <h1 className="text-[#101828] text-xl font-bold">Sisyphus</h1>
+        <h1 className="text-[#101828] text-lg md:text-xl font-bold">Sisyphus</h1>
       </div>
-      <h1 className="text-[#1F2937] font-bold text-4xl">
+      <h1 className="text-[#1F2937] font-bold text-2xl md:text-4xl">
         We’ve been with unicraft to kick start every new project and can’t
         imagine working without it.
       </h1>
@@ -20,4 +21,4 @@ const Sisyphus = () => {
   );
 };
 
-export default Sisyphus;
+export default  SectionWrapper(Sisyphus, ""); 

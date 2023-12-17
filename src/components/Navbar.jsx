@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
@@ -61,7 +60,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="hidden lg:block">
+        <div className="hidden md:block">
           <button className=" border-[#4B5563] border-2  px-6 py-2 rounded-md">
             Contact Us
           </button>
@@ -72,7 +71,7 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[28px] h-[28px] object-contain"
+            className="w-[28px] text-black h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
           <div

@@ -40,7 +40,7 @@ const Banner = () => {
               </h2>
             </center>{" "}
           </motion.div>
-          <div className="flex justify-center items-center  flex-wrap ">
+          <div className="flex justify-center items-center gap-5 flex-wrap ">
             {logos.map((logo, index) => (
               <div key={index} className="flex items-center justify-between">
                 <motion.img

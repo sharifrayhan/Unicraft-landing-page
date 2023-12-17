@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { minus_icon, plus_icon } from "../assets";
 import { FAQ } from "../constants";
+import SectionWrapper from "../hoc/SectionWrapper";
 
 const FAQSection = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -16,15 +17,15 @@ const FAQSection = () => {
   return (
     <div className="my-10">
       <center>
-        <h1 className="text-4xl font-bold text-[#262E35]">
+        <h1 className="md:text-4xl text-2xl font-bold text-[#262E35]">
           Frequently asked questions
         </h1>
-        <p className="text-gray-600 px-[400px] mt-2">
+        <p className="text-gray-600 px-4 md:px-[200px]  lg:px-[400px] mt-2">
           Everything you need to know about the product and billing.
         </p>
       </center>
 
-      <div className="mx-auto my-5 mb-10 w-[600px]">
+      <div className="mx-auto my-5 mb-10 w-[200px] md:w-[400px] lg:w-[600px]">
         {FAQ.map((faq, index) => (
           <div className="" key={index}>
             <div className="flex  justify-between">
@@ -47,4 +48,4 @@ const FAQSection = () => {
   );
 };
 
-export default FAQSection;
+export default  SectionWrapper(FAQSection, ""); 
