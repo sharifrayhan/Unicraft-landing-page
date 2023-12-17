@@ -6,6 +6,7 @@ import Work from "./components/Work/Work";
 import HIW from "./components/HIW";
 import Sisyphus from "./components/Sisyphus";
 import Pricing from "./components/Pricing";
+import FAQSection from "./components/FAQ";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <HIW></HIW>
       <Sisyphus></Sisyphus>
       <Pricing></Pricing>
+      <FAQSection></FAQSection>
      </div>
      </BrowserRouter>
     </>
