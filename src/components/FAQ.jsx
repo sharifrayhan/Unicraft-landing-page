@@ -14,7 +14,7 @@ const FAQSection = () => {
   );
 
   return (
-    <div className="mt-10">
+    <div className="my-10">
       <center>
         <h1 className="text-4xl font-bold text-[#262E35]">
           Frequently asked questions
@@ -24,7 +24,7 @@ const FAQSection = () => {
         </p>
       </center>
 
-      <div className="mx-auto my-5 w-[600px]">
+      <div className="mx-auto my-5 mb-10 w-[600px]">
         {FAQ.map((faq, index) => (
           <div className="" key={index}>
             <div className="flex  justify-between">

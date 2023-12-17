@@ -7,6 +7,7 @@ import HIW from "./components/HIW";
 import Sisyphus from "./components/Sisyphus";
 import Pricing from "./components/Pricing";
 import FAQSection from "./components/FAQ";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Sisyphus></Sisyphus>
       <Pricing></Pricing>
       <FAQSection></FAQSection>
+      <Footer></Footer>
      </div>
      </BrowserRouter>
     </>
