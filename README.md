@@ -1,5 +1,6 @@
 # Unicraft Landing Page
-
+## Live Link
+https://unicraft-by-sharifrayhan.netlify.app/
 ## Prerequisites
 
 To run this project locally make sure you have the following installed on your machine:
@@ -19,7 +20,7 @@ After cloning the repository
 Start the development server:
    ```bash
    npm run dev
-Then go to your local host server
+
 
 
 
