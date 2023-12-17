@@ -15,5 +15,7 @@ import work_five from "./work-five.png"
 import arrow from "./arrow.svg"
 import sisyphus from "./sisyphus.svg"
 import avatar from "./avatar.png"
+import tick_black from "./charm_circle-tick.svg"
+import tick_white from "./tick-white.svg"
 
-export {menu, close, headergradient, slack, zoom, zapier, spotify, amazon, adobe, work_one, work_two,work_three, work_four, work_five, arrow, sisyphus, avatar}
+export {menu, close, headergradient, slack, zoom, zapier, spotify, amazon, adobe, work_one, work_two,work_three, work_four, work_five, arrow, sisyphus, avatar, tick_black, tick_white}
