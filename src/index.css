@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+:root {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
 
   .purple-text-gradient {
     background: linear-gradient(180deg, #D8B4FE -43.9%, rgba(216, 180, 254, 0.00) 172.76%);
@@ -12,5 +14,13 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .shadow-element {
+    border-radius: 25.64px;
+    border: 0.916px solid var(--color-gray-200, #E5E7EB);
+    background: #FFF;
+    box-shadow: 0px 10.988px 36.628px 0.916px rgba(28, 25, 23, 0.05);
+  }
+  
   
   

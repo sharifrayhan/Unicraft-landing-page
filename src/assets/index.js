@@ -12,5 +12,6 @@ import work_two from "./work-two.png"
 import work_three from "./work-three.png"
 import work_four from "./work-four.png"
 import work_five from "./work-five.png"
+import arrow from "./arrow.svg"
 
-export {menu, close, headergradient, slack, zoom, zapier, spotify, amazon, adobe, work_one, work_two,work_three, work_four, work_five}
+export {menu, close, headergradient, slack, zoom, zapier, spotify, amazon, adobe, work_one, work_two,work_three, work_four, work_five, arrow}
