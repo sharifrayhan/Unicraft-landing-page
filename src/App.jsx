@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Banner from "./components/Banner"
 import { headergradient } from "./assets";
+import Work from "./components/Work/Work";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Navbar></Navbar>
         <Banner></Banner>
       </div>
+      <Work></Work>
      </div>
      </BrowserRouter>
     </>

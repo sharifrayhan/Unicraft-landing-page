@@ -6,7 +6,11 @@
 
 
 
-.header-gradient {
-    background: linear-gradient(0deg, #FFF 32.26%, rgba(255, 255, 255, 0.00) 79.75%);
+  .purple-text-gradient {
+    background: linear-gradient(180deg, #D8B4FE -43.9%, rgba(216, 180, 254, 0.00) 172.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
+  
   

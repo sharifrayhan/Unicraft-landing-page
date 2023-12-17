@@ -7,5 +7,10 @@ import zapier from "./zapier.svg"
 import spotify from "./spotify.svg"
 import amazon from "./amazon.svg"
 import adobe from "./adobe.svg"
+import work_one from "./work-one.png"
+import work_two from "./work-two.png"
+import work_three from "./work-three.png"
+import work_four from "./work-four.png"
+import work_five from "./work-five.png"
 
-export {menu, close, headergradient, slack, zoom, zapier, spotify, amazon, adobe}
+export {menu, close, headergradient, slack, zoom, zapier, spotify, amazon, adobe, work_one, work_two,work_three, work_four, work_five}

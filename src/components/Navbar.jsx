@@ -62,7 +62,7 @@ const Navbar = () => {
         </ul>
 
        <div className="hidden lg:block">
-       <button>Contact Us</button>
+       <button className=" border-[#4B5563] border-2  px-6 py-2 rounded-md">Contact Us</button>
        </div>
 
         {/* Small Devices  */}
