@@ -4,6 +4,7 @@ import Banner from "./components/Banner"
 import { headergradient } from "./assets";
 import Work from "./components/Work/Work";
 import HIW from "./components/HIW";
+import Sisyphus from "./components/Sisyphus";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       </div>
       <Work></Work>
       <HIW></HIW>
+      <Sisyphus></Sisyphus>
      </div>
      </BrowserRouter>
     </>
