@@ -2,15 +2,24 @@
 
 ## Prerequisites
 
-Make sure you have the following installed on your machine:
+To run this project locally make sure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
 ## Getting Started
 
-1. **Clone the repository:**
+After cloning the repository 
+1. **Install project dependencies:**
 
    ```bash
-   git clone https://github.com/your-username/unicraft-landing-page.git
+   npm install
+
+## Running the Project
+Start the development server:
+   ```bash
+   npm run dev
+Then go to your local host server
+
+
 
